@@ -1,0 +1,23 @@
+input[type=text],input[type=email]  {
+   border-radius: 5px;
+   height: 30px;
+   
+}
+.dropdown{
+    width:180px;
+    height: 30px
+}
+.btnSave{
+    width:180px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    border:none;
+    cursor:pointer;
+    margin: 5px
+
+}
