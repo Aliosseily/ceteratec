@@ -25,14 +25,14 @@ class AddNewUser extends React.Component {
             <div>
                 <form onSubmit={this.onFormSubmit}>
                        <label htmlFor="fullname">Fullname</label><br/>
-                       <input type = 'text' className = 'txtName' placeholder = 'Full name' name = 'name'/>
+                       <input type = 'text' className = 'txtName' placeholder = 'Full name' name = 'name' required/>
                        <br/><br/>
                        <label htmlFor="email"  >Email</label><br/>
-                       <input type = 'text' className = 'txtEmail' placeholder = 'Email' name = 'email'/>
+                       <input type = 'email' className = 'txtEmail' placeholder = 'Email' name = 'email' required/>
                        <br/><br/>
                     
                        <label htmlFor="gender"  >Gender</label><br/>
-                       <select name = 'gender'className='dropdown'>
+                       <select name = 'gender'className='dropdown' required>
                        <option value="male">male</option>
                        <option value="female">female</option>
                        </select> 
